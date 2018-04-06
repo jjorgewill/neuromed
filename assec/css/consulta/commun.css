@@ -1,0 +1,441 @@
+@font-face {
+    font-family: "original_GOTHIC";
+    src: url('../../fonts/gotic/original_GOTHIC.eot'), url('../../fonts/gotic/original_GOTHIC.ttf'), url('../../fonts/gotic/original_GOTHIC.otf'), url('../../fonts/gotic/original_GOTHIC.woff');
+}
+
+@font-face {
+    font-family: 'LucidaBright-Demi';
+    src: url('../../fonts/lbrted/original_LBRITED.eot?#iefix') format('embedded-opentype'), url('../../fonts/lbrted/original_LBRITED.woff') format('woff'), url('../../fonts/lbrted/original_LBRITED.ttf') format('truetype'), url('../../fonts/lbrted/original_LBRITED.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'original_GOTHIC';
+}
+
+button {
+    border-radius: 0 !important;;
+}
+
+.original_GOTHIC {
+    font-family: 'original_GOTHIC';
+}
+
+.LucidaBright_Demi {
+    font-family: 'LucidaBright-Demi';
+}
+
+section {
+    padding-top: 72px !important;
+}
+
+.gotic {
+    font-family: 'gotic', serif;
+}
+
+.textWhite {
+    color: white;;
+}
+
+/*navar*/
+.navbar-nav a:hover, .navbar-nav a:focus {
+    background: #FF9000 !important;
+    color: #ffffff !important;
+}
+
+/*endnavar*/
+.textRuleWhite {
+    text-shadow: 1px 2px 1px #fff;
+}
+
+.textRule {
+    text-shadow: 0px 0px 1px #000;
+}
+
+.home {
+    cursor: pointer;
+}
+
+/*sesssion uno*/
+.contact {
+    font-size: 1.4em;
+    height: 43px;
+}
+
+.publicidad strong {
+    color: #FF9000;
+    text-shadow: 0px 3px 3px #000;
+}
+
+.listservice a:hover {
+    text-shadow: 1px 1px 1px #FF9000;
+}
+
+.publicidad {
+    font-weight: bold;
+    padding: 3% 6%;
+    text-shadow: 0px 4px 4px #000;
+}
+
+.listservice ul a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px #000000;
+}
+
+.listservice ul {
+    list-style: none
+}
+
+/*sesion consulta*/
+.padding {
+    padding-bottom: 2%;
+}
+
+.marginTopCero {
+    margin-top: 0;
+}
+
+.surgeryPack:hover {
+    box-shadow: 3px 3px 13px #000;
+}
+
+.packPremium.backgroundFour:hover, .pack:hover {
+    box-shadow: 0px 0px 40px #000;
+}
+.address{
+    font-size: 0.9em;
+    color: #ccc;
+
+}
+
+.bottom {
+    margin: 0 auto;
+    padding: 2% 0% 4% 0%;
+    width: 21%;
+}
+
+.packPremium .headPack {
+    color: #ffffff;
+}
+
+.headPack {
+    text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.38);
+    color: #ff9000;
+    font-size: 2.3em;
+    margin-bottom: 0;
+    padding: 1%;
+}
+
+.packPremium {
+    box-shadow: inset 0px 0px 46px rgba(0, 0, 0, 0.32);
+    height: 400px;
+    min-height: 400px;
+    max-height: 400px;
+    padding: 4% 4% 0 4%;
+}
+
+.pack {
+    border: 1px solid #ff9000;
+    box-shadow: 0px 0px 41px #ccc;
+}
+
+.getPremium {
+    border: 1px #ff9000 solid;
+    color: #000 !important;
+}
+
+.packPremium button:hover {
+    background: #ff9000 !important;
+    color: #fff !important;
+}
+
+.pack button:hover {
+    background: #ffffff !important;
+    color: #000 !important;
+}
+
+.packPremium .getOffer {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.getOffer {
+    background: #ff9000 !important;
+    color: #ffffff !important;
+}
+
+.packPremium .line {
+    border: 1px solid #ffffff;
+    width: 79%;
+    margin: 0 auto;
+}
+
+.line {
+    border: 1px solid rgba(255, 151, 4, 0.43);
+    width: 79%;
+    margin: 0 auto;
+}
+
+/*surgery*/
+.surgeryPack .head span {
+    margin-left: 3%;
+    font-size: 1.3em;
+}
+
+
+.surgeryPack .round {
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    padding: 30px 15px;
+    color: #FF9000;
+    text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.64);
+    font-size: 1.3em;
+    margin-top: -35px;
+    margin-left: 9px;
+    float: left;
+    background: white;
+    box-shadow: 0px 1px 4px #ccc;
+}
+
+.surgeryPack .head {
+    border-bottom: 1px solid #000;
+    border-bottom-right-radius: 12px;;
+    border-bottom-left-radius: 12px;;
+    padding: 6% 11%;
+    text-align: center;
+}
+
+.surgeryPack {
+    background: white;
+    border-radius: 10px;
+}
+
+/*endsurgery*/
+/*sesion Dos*/
+/*sesion Tres*/
+.backgroundThree {
+    background: #0A64A4;
+    /* background: #0b614a;*/
+}
+
+svg {
+    display: block;
+}
+
+#clouds path, #cloudsSeven path {
+    fill: #0A64A4;
+
+}
+
+#cloudsTwo, #cloudsEight {
+    background: #0A64A4
+}
+
+#cloudsFour path {
+    fill: #fff;
+}
+
+#cloudsFour {
+    background: #0A64A4
+}
+
+#cloudsTwo path, #cloudsEight path {
+    fill: #fff;
+}
+
+#cloudsThree, #cloudsFive {
+    background: #fff
+}
+
+#cloudsSix {
+    background: #0A64A4;
+}
+
+#cloudsFive {
+    fill: #ff9000;
+    stroke: #ff9000;
+}
+
+#cloudsSix {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.backgroundFour {
+    background: #ff9000;
+}
+
+#cloudsThree path, #cloudsFive path {
+    fill: #0A64A4;
+    stroke: #0A64A4;
+}
+
+.titleEmergency {
+    color: #0A64A4;
+}
+
+/*sesion tres*/
+
+.shadows {
+    text-shadow: 1px 2px 0px rgba(0, 0, 0, 0.36);
+}
+
+/*sesion contacto*/
+.imgDtr {
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin: 2%;
+}
+
+.social {
+    list-style: none;
+    text-align: center;
+}
+
+.social li {
+    border: 4px double #ff9000;
+    border-radius: 50%;
+    float: left;
+}
+
+.twitter {
+    height: 71px;
+    width: 70px;
+}
+
+.youtube {
+    height: 71px;
+    width: 70px;
+}
+
+.facebook {
+    height: 71px;
+    width: 70px;
+}
+
+/*sesion footer*/
+footer li {
+    color: #ff9000;
+}
+
+footer li a:hover {
+    font-size: 1.1em;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #FF9000;
+}
+
+footer li a {
+    font-size: 1.1em;
+    color: #fff;
+}
+
+footer h2 {
+    color: white;
+}
+
+h2 {
+    color: #ff9000;
+    text-align: center;
+}
+
+.centerfooter {
+    padding-top: 2%;
+    color: #fff;
+    text-align: center;
+}
+
+.leterSpace {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.lineHeight {
+    list-style-type: none;
+}
+
+.linkService {
+    color: #FF9000 !important;
+}
+
+.colorTitle {
+    color: #47A0AE;
+}
+
+.twitter, .facebook, .youtube {
+    -webkit-transition: 0.6s ease-in-out;
+    -moz-transition: 0.6s ease-in-out;
+    -o-transition: 0.6s ease-in-out;
+    transition: 0.6s ease-in-out;
+}
+
+.backgroundOne {
+    background: url("../../img/motivo/rowsback.png"), -webkit-linear-gradient(#02223A, #0A64A4);
+    background: url("../../img/motivo/rowsback.png"), -moz-linear-gradient(#02223A, #0A64A4);
+    background: url("../../img/motivo/rowsback.png"), -o-linear-gradient(#02223A, #0A64A4);
+    background: url("../../img/motivo/rowsback.png"), linear-gradient(#02223A, #0A64A4);
+}
+
+.backgroundTwo {
+    background: url("../../img/motivo/rowsback.png"), #0A64A4;
+}
+
+
+.especialPhone {
+    font-size: 1.3em;
+    padding: 6% 0% 0% 0% !important;
+}
+
+.colorAnaranjado {
+    color: #ff9000 !important;
+}
+
+.borderRadiusCero {
+    border-radius: 0;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.btn-warning {
+    background: url("../../img/motivo/rowsback.png"), #ff9000;
+    border-color: #ff9000;
+}
+
+.contactForm {
+    margin-bottom: 1%;
+}
+
+.titleDiv {
+    text-transform: uppercase;
+}
+
+.textRight {
+    text-align: right !important;
+}
+
+.navbar-default {
+    background: linear-gradient(to bottom, #e7e7e7, white);
+    border: none;
+    margin-bottom: 0;
+}
+
+#sectionP p {
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+#bigTriangleColor path {
+    fill: white;
+    stroke: white;
+    stroke-width: 2;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}

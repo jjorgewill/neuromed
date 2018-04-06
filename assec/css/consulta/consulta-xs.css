@@ -1,0 +1,135 @@
+@media (max-width: 480px) {
+
+    /*header*/
+    .home {
+        cursor: pointer;
+    }
+
+    .logo {
+        list-style: none;
+    }
+
+    .dropdown-menu > li > a {
+        white-space: normal;
+    }
+
+    .navbar-toggle {
+        margin-top: 8px;
+        margin-right: 25px;
+        padding: 10px 10px;
+    }
+
+    h1 {
+        text-align: center;
+        margin-top: 3px;
+    }
+
+    #presentation .row {
+        margin-right: 0;
+    }
+
+    /*end header*/
+    /*session one*/
+    #surgery .row {
+        margin-top: 12%;
+    }
+    #presentation {
+        padding: 0;
+    }
+
+    #presentation img {
+        display: none;
+    }
+
+    .msg {
+        display: none;
+    }
+
+    .bottomContact {
+        margin: 6% auto;
+        width: 48%;
+    }
+
+    .body {
+        padding: 4% 1% 1% 0%;
+        height: 230px;
+        min-height: 230px;
+        max-height: 240px;
+    }
+
+    .packPremium .body {
+        padding: 4% 1% 1% 0%;
+        height: 220px;
+        min-height: 280px;
+        max-height: 280px;
+    }
+
+    .pack {
+        height: 340px;
+        margin-bottom: 11%;
+        margin-top: 8%;
+        max-height: 350px;
+        min-height: 350px;
+        padding: 4% 4% 0 4%;
+    }
+
+    .surgeryPack {
+        margin-bottom: 18%;
+    }
+
+    .navbar-default .navbar-toggle {
+        border-color: #FF9000;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #FF9000;
+    }
+
+    /*session contact*/
+    .social li:nth-child(even) {
+        margin: 3% 3% 3% 3%;
+    }
+
+    .social li:nth-child(odd) {
+        margin: 3% 0% 3% 0%;
+    }
+
+    .social li {
+        padding: 19px;
+    }
+
+    .send {
+        width: 26%;
+        margin: 0 auto;
+    }
+    .youtube:hover {
+        -ms-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+        font-size: 1.2em;
+    }
+
+    .facebook:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.2em;
+    }
+    .twitter:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.2em;
+    }
+    /*end session contact*/
+    /*footer*/
+    footer table {
+        margin: 0 auto;
+    }
+    footer ul {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    /*end footer*/
+}

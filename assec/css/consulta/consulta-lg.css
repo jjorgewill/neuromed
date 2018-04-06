@@ -1,0 +1,203 @@
+@media (min-width: 1200px) {
+
+    /*sesion uno*/
+    #presentation {
+        padding: 0;
+    }
+
+    .publicidad {
+        padding: 5% 0 0 0;
+        font-size: 1.6em;
+    }
+
+    .listservice {
+        font-size: 1.8em;
+        padding: 1% 0% 2% 0%;
+    }
+
+    .publicidad strong {
+        font-weight: bold;
+        font-size: 1.27em;
+    }
+
+    .linkService {
+        font-size: 1.5em !important;
+        padding-top: 28px !important;
+        padding-bottom: 31px !important;
+    }
+
+    .noMargin {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .body {
+        padding: 4% 1% 1% 0%;
+        height: 220px;
+        min-height: 220px;
+        max-height: 220px;
+    }
+
+    /*sesion consulta*/
+    .packPremium .body {
+        padding: 4% 1% 1% 0%;
+        height: 220px;
+        min-height: 280px;
+        max-height: 280px;
+    }
+
+    #surgery .row {
+        margin-top: 5%;
+    }
+
+
+    .pack {
+        margin-bottom: 11%;
+        margin-top: 8%;
+        padding: 4% 4% 0 4%;
+        height: 340px;
+        min-height: 340px;
+        max-height: 340px;
+    }
+
+    /*sesion dos*/
+    #sectionO, #sectionN, #sectionC {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    #sectionH, #sectionV, #sectionE {
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    .borderRBlue {
+        border-right: 3px #fff solid;
+    }
+
+    .borderLBlue {
+        border-left: 2px #fff solid;
+    }
+
+    /*sesion tres*/
+    .borderTBlue {
+        border-top: 2px #fff solid;
+        padding: 1% 5% 1% 5%;
+        text-align: justify;
+    }
+
+    .borderR {
+        border-right: 1px #47A0AE solid;
+    }
+
+    .borderL {
+        border-left: 1px #47A0AE solid;
+    }
+
+    /*sesion tres*/
+    .borderT {
+        border-top: 1px #47A0AE solid;
+        padding: 1% 5% 1% 5%;
+        text-align: justify;
+    }
+
+    .marginTitle {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .contactoP {
+        width: 83%;
+        margin: 0 auto;
+        padding: 2% 1% 3% 1%;
+    }
+
+    .divD {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .divLine {
+        padding: 2%;
+        text-align: justify;
+    }
+
+    .imgClass {
+        width: 70%;
+    }
+
+    .btnSend {
+        width: 100%;
+    }
+
+    .send {
+        margin: 0 auto;
+        width: 17%
+    }
+
+    .lineHeight {
+        line-height: 2em;
+    }
+
+    .paddingServices {
+        padding: 3% 6%;
+    }
+
+    .msg {
+        background: url("../../img/motivo/rowsback.png"), white;
+        color: #043F75;
+        float: left;
+        height: 43px;
+        padding: 11px 11px;
+        width: 36px;
+    }
+
+    .bottomContact {
+        margin: 0% 0% 10% 47%;
+        box-shadow: 0px 0px 6px #000;
+        width: 29%;
+    }
+
+    .cont {
+        height: 34px;
+        width: 157px;
+    }
+
+    .divMargin {
+        margin-bottom: 15%;
+    }
+
+    /*session contact*/
+    .social li:nth-child(even) {
+        margin: 3% 7% 8% 7%
+    }
+
+    .social li:nth-child(odd) {
+        margin: 3% 7% 8% 7%
+    }
+
+    .social li {
+        padding: 3%;
+    }
+
+    .twitter:hover{
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 2em;
+    }
+    .facebook:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.5em;
+    }
+    .youtube:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.5em;
+    }
+    /*end session contact*/
+
+}

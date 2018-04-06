@@ -1,0 +1,71 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /*contact*/
+    .social li {
+        padding: 4%;
+    }
+    .social li:nth-child(even) {
+        margin: 3% 7% 8% 7%;
+    }
+    .social li:nth-child(odd) {
+        margin: 3% 7% 8% 7%;
+    }
+    .twitter:hover{
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.5em;
+    }
+    .facebook:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.2em;
+    }
+    .youtube:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.2em;
+    }
+    .send {
+        margin: 0 auto;
+        width: 17%;
+    }
+    /*end contact*/
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+    /*contact*/
+    .social li {
+        padding: 3%;
+    }
+    .social li:nth-child(even) {
+        margin: 3% 7% 8% 7%;
+    }
+    .social li:nth-child(odd) {
+        margin: 3% 7% 8% 7%;
+    }
+    .twitter:hover{
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.5em;
+    }
+    .facebook:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.2em;
+    }
+    .youtube:hover {
+        -ms-transform: rotate(360deg); /* IE 9 */
+        -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+        transform: rotate(360deg);
+        font-size: 1.2em;
+    }
+    .send {
+        margin: 0 auto;
+        width: 17%;
+    }
+}

@@ -1,0 +1,300 @@
+.font_Rock_Salt {
+    font-family: 'Rock Salt', cursive;
+}
+
+.font_Shadows_Into_Light {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.font_Indie_Flower {
+    font-family: 'Indie Flower', cursive;
+}
+
+.font_Amatic_SC {
+    font-family: 'Amatic SC', cursive;
+}
+
+.font_Coming_Soon {
+    font-family: 'Coming Soon', cursive;
+}
+
+.font_Cinzel {
+    font-family: 'Cinzel', serif;
+}
+
+.font_Covered_By_Your_Grace {
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.font_Pacifico {
+    font-family: 'Pacifico', cursive;
+}
+
+.font_Open_Sans_Condensed {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.font_Gloria_Hallelujah {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.font_Josefin_Slab {
+    font-family: 'Josefin Slab', serif;
+}
+
+.font_Poiret_One {
+    font-family: 'Poiret One', cursive;
+}
+
+.textWhite{
+    color: white;;
+}
+.textRuleWhite{
+    font-size: 1.28em;
+    text-shadow: 1px 2px 1px #fff;
+}
+.textRule{
+    font-size: 1.28em;
+    text-shadow: 1px 1px 0px #000;
+}
+/*sesssion uno*/
+.publicidad strong {
+    color: #F27300;
+    text-shadow: 1px 1px 0px #fff;
+}
+
+.publicidad {
+    color: #fa8144;
+    font-weight: bold;
+    text-shadow: 1px 1px 17px #8DFFED;
+}
+
+.listservice ul a {
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 0px #6D6857;
+}
+
+.listservice ul {
+    list-style: none
+}
+
+/*sesion Dos*/
+/*sesion Tres*/
+.backgroundThree {
+    background: rgba(0, 137, 217, 0.75);
+}
+
+svg {
+    display: block;
+}
+
+#clouds path {
+    fill: rgba(0, 137, 217, 0.75);
+
+}
+
+#cloudsTwo {
+    background: rgba(0, 137, 217, 0.75)
+}
+
+#cloudsFour path {
+    fill: #fff;
+}
+
+#cloudsFour {
+    background: rgba(0, 137, 217, 0.75)
+}
+
+#cloudsTwo path {
+    fill: #fff;
+}
+
+#cloudsThree, #cloudsFive {
+    background: #fff
+}
+
+#cloudsSix {
+    background: #ff9704;
+}
+
+#cloudsFive {
+    fill: #ff9704;
+    stroke: #ff9704;
+}
+
+#cloudsSix {
+    fill: #fff;
+    stroke: #fff;
+}
+
+.backgroundFour {
+    background: #ff9704;
+}
+
+#cloudsThree path {
+    fill: rgba(0, 137, 217, 0.75);
+}
+
+.titleEmergency {
+    color: rgba(0, 137, 217, 0.75);
+    text-shadow: 1px 1px 1px #000;
+}
+
+/*sesion tres*/
+
+.shadows{
+    text-shadow: 1px 2px 0px #000;
+}
+/*sesion contacto*/
+.imgDtr {
+    width: 65px;
+    height: 65px;
+    float: left;
+    margin: 2%;
+}
+
+.social {
+    list-style: none;
+    text-align: center;
+}
+
+.social li:nth-child(even) {
+    margin: 3% 7% 8% 7%
+}
+
+.social li:nth-child(odd) {
+    margin: 3% 7% 8% 7%
+}
+
+.social li {
+    border: 4px double #ff9704;
+    border-radius: 50%;
+    float: left;
+    padding: 3%;
+}
+
+.twitter {
+    height: 71px;
+    width: 70px;
+}
+
+.youtube {
+    height: 71px;
+    width: 70px;
+}
+
+.facebook {
+    height: 71px;
+    width: 70px;
+}
+
+/*sesion footer*/
+footer li {
+    color: #ff9704;
+}
+
+footer li a {
+    color: #fff;
+}
+
+footer h2 {
+    color: white;
+}
+
+h2 {
+    color: #ff9704;
+    text-align: center;
+}
+
+.centerfooter {
+    padding-top: 2%;
+    color: #fff;
+    text-align: center;
+}
+
+.leterSpace {
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.lineHeight {
+    list-style-type: none;
+}
+
+.colorTitle {
+    color: #47A0AE;
+}
+
+.backgroundOne {
+    background: url("../../img/motivo/rowsback.png"), rgba(0, 137, 217, 0.75);
+    box-shadow: inset 0px 0px 40px #676767;
+}
+
+.backgroundTwo {
+    background: url("../../img/motivo/rowsback.png"), rgba(0, 137, 217, 0.75);
+}
+
+#presentation {
+    padding: 0;
+}
+
+.especialPhone {
+    font-size: 1.3em;
+    padding: 6% 0% 0% 0% !important;
+}
+
+.colorAnaranjado {
+    color: #ff9704 !important;
+}
+
+.borderRadiusCero {
+    border-radius: 0;
+}
+
+.colorWhite {
+    color: white;
+}
+
+.padding {
+    padding: 5%;
+}
+
+.btn-warning {
+    background: url("../../img/motivo/rowsback.png"), #ff9704;
+    border-color: #ff9704;
+}
+
+.contactForm {
+    margin-bottom: 1%;
+}
+
+.titleDiv {
+    text-transform: uppercase;
+}
+
+.textRight {
+    text-align: right !important;
+}
+
+.navbar-default {
+    background: linear-gradient(to bottom, #e7e7e7, white);
+    border: none;
+    margin-bottom: 0;
+}
+
+#sectionP p {
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+#bigTriangleColor path {
+    fill: white;
+    stroke: white;
+    stroke-width: 2;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}

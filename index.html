@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="geo.region" content="ES-C">
+    <meta name="geo.placename" content="Santo Domingo de los Tsáchila">
+    <meta name="geo.position" content="-0.25;-79.15">
+    <meta name="description" content="Consulta centro de atencion a la salud en santo Domingo">
+    <meta name="author" content="Jorge">
+    <title>Bienvenidos a Consulta</title>
+    <link rel="stylesheet" href="assec/css/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assec/css/consulta/consulta-lg.css"/>
+    <link rel="stylesheet" href="assec/css/consulta/consulta-md.css"/>
+    <link rel="stylesheet" href="assec/css/consulta/consulta-sm.css"/>
+    <link rel="stylesheet" href="assec/css/consulta/consulta-xs.css"/>
+    <link rel="stylesheet" href="assec/css/consulta/commun.css"/>
+    <link href='https://www.google.com/fonts#UsePlace:use/Collection:Josefin+Slab|Gloria+Hallelujah'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assec/fonts/FontAwesome/font-awesome/css/font-awesome.min.css"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div id="fb-root"></div>
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.3";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <li class="logo home hidden-lg hidden-md"><h1 class="marginTitle colorTitle original_GOTHIC">
+                    NeuroMed</h1></li>
+            </div>
+
+            <div class="container">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav hidden-xs">
+                        <li class="home"><h1 class="marginTitle colorTitle original_GOTHIC">NeuroMed</h1></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle linkService original_GOTHIC" data-toggle="dropdown"
+                               role="button" aria-expanded="false"> Servicios <span class="caret"></span></a>
+                            <ul class="dropdown-menu original_GOTHIC" role="menu">
+                                <li><a href="" class="cerebroMove"> Consultas especializadas en enfermedades del
+                                    cerebro</a></li>
+                                <li><a href="" class="columnMove"> Consultas especializadas en enfermedades de
+                                    la columna vertebral</a></li>
+                                <li><a href="" class="nerveMove"> Consultas preventivas de enfermedades del
+                                    sistema nervioso</a></li>
+                                <li><a href="" class="discMove"> Diagnostico y tratamiento de Hernia
+                                    discal</a></li>
+                                <li><a href="" class="tumorMove"> Diagnostico y tratamiento de Tumor cerebral</a>
+                                </li>
+                                <li><a href="" class="emergencyMove"> Atención de emergencias</a></li>
+                            </ul>
+                        </li>
+                        <li><a id="linkConsult" href="#" class="linkService original_GOTHIC">Consultas</a></li>
+                        <li><a id="linkSurgery" href="#" class="linkService original_GOTHIC">Cirugías</a></li>
+                        <li><a id="linkMis" href="#"
+                               class="linkService original_GOTHIC hidden-xs hidden-sm">Miselaneas</a></li>
+                        <li><a href="#" class="contactMove linkService original_GOTHIC hidden-md hidden-lg">Contacto</a>
+                        </li>
+
+                        <form class="navbar-form navbar-left marginTitle hidden-xs" role="search">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Buscar">
+                            </div>
+                            <button type="submit" class="btn btn-warning"><i class="fa fa-search"></i></button>
+                        </form>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+</header>
+<article>
+    <section class="backgroundOne">
+        <div id="presentation" class="container">
+            <div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="colorWhite original_GOTHIC publicidad">
+                            <p><strong>NeuroMed es un servicio de neurocirugia especializado,</strong> equipados con
+                                tecnología de
+                                de pirmer nivel para operaciones de emergencias </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+
+                        <img src="assec/img/DOCTOR.png" alt="" class="imgClass"/>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="colorWhite original_GOTHIC listservice">
+                            <ul>
+                                <li><a href="" class="cerebroMove"><i class="fa fa-check"></i> Enfermedades del cerebro</a>
+                                </li>
+                                <li><a href="" class="columnMove"><i class="fa fa-check"></i> Enfermedades de la columna
+                                    vertebral</a></li>
+                                <li><a href="" class="nerveMove"><i class="fa fa-check"></i> Enfermedades del sistema
+                                    nervioso</a></li>
+                                <li><a href="" class="discMove"><i class="fa fa-check"></i> Diagnostico y tratamiento de
+                                    Hernia
+                                    discal</a></li>
+                                <li><a href="" class="tumorMove"><i class="fa fa-check"></i> Diagnostico y tratamiento
+                                    de Tumor
+                                    cerebral</a></li>
+                                <li><a href="" class="emergencyMove"><i class="fa fa-check"></i> Atención de emergencias
+                                </a></li>
+                            </ul>
+                        </div>
+
+                        <div class="bottomContact">
+                            <a href="">
+                                <div class="msg contactMove"><i class="fa fa fa-envelope-o"></i></div>
+                                <div class="contact contactMove btn btn-warning borderRadiusCero original_GOTHIC leterSpace cont">
+                                    Contactar
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-12">
+                            <span class="address">Dirección: esquina derecha de la calazacon</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</article>
+<div class="blocks">
+
+<section id="offer">
+    <div class="container">
+        <hgroup class="">
+            <h2 class="original_GOTHIC shadows">Consultas</h2>
+
+            <h3 class="original_GOTHIC marginTopCero" style="text-align: center;color: #A6A6A6;">Solicite su Consulta
+                aquí!!</h3>
+        </hgroup>
+        <div class="row">
+            <div class="col-lg-4 noMargin">
+                <div class="pack ">
+                    <div class="head">
+                        <div class="row">
+                            <div style="text-align: center">
+                                <p class="original_GOTHIC headPack">Básico</p>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <ul class="original_GOTHIC textRuleWhite">
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina pero sigo siendo el rey</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina sigo</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <button type="button" class="btn btn-default getOffer original_GOTHIC getOffer">Solicitar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 noMargin">
+                <div class="packPremium backgroundFour">
+                    <div class="head">
+                        <div class="row">
+                            <div style="text-align: center">
+                                <p class="original_GOTHIC headPack textWhite textRule">Económico</p>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <ul class="original_GOTHIC textRuleWhite textWhite textRule">
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina pero sigo siendo el rey</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina sigo</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <button type="button" class="btn btn-default getPremium original_GOTHIC getOffer">Solicitar
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 noMargin">
+                <div class="pack">
+                    <div class="head">
+                        <div class="row">
+                            <div style="text-align: center">
+                                <p class="original_GOTHIC headPack">Super</p>
+                            </div>
+                            <div class="line"></div>
+                        </div>
+                    </div>
+                    <div class="body">
+                        <ul class="original_GOTHIC textRuleWhite">
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina pero sigo siendo el rey</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina sigo</li>
+                            <li>Mi palabra es la ley no tengo trono ni reina</li>
+                        </ul>
+                    </div>
+                    <div class="bottom">
+                        <button type="button" class="btn btn-default getOffer original_GOTHIC getOffer">Solicitar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="cloudsSeven" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+
+<section id="surgery" class="backgroundThree">
+<div class="container">
+<hgroup>
+    <h2 class="original_GOTHIC shadows">Paquete de Cirugías</h2>
+</hgroup>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo</span>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>asasa</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partidacabeza partida cabeza partida</li>
+                    <li>cabeza partidacabeza partida</li>
+                    <li>cabeza partida cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo</br></span>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partidacabeza partida</li>
+                    <li>cabeza partida cabeza partida</li>
+                    <li>cabeza partidacabeza partida cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo </span>
+
+            </div>
+            <div class="body">
+                <ul>
+                    <li>cabeza partida</li>
+                    <li>tumor cerebral</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo</span>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>asasa</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partidacabeza partida cabeza partida</li>
+                    <li>cabeza partidacabeza partida</li>
+                    <li>cabeza partida cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo</br></span>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partidacabeza partida</li>
+                    <li>cabeza partida cabeza partida</li>
+                    <li>cabeza partidacabeza partida cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo </span>
+
+            </div>
+            <div class="body">
+                <ul>
+                    <li>cabeza partida</li>
+                    <li>tumor cerebral</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo</span>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>asasa</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partidacabeza partida cabeza partida</li>
+                    <li>cabeza partidacabeza partida</li>
+                    <li>cabeza partida cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo</br></span>
+            </div>
+            <div class="body">
+                <ul>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partidacabeza partida</li>
+                    <li>cabeza partida cabeza partida</li>
+                    <li>cabeza partidacabeza partida cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        <div class="surgeryPack">
+            <div class="round">
+                <i class="fa fa-usd" style="color: #FF9000"></i><strong>3000 </strong>
+            </div>
+            <div class="head">
+                <span> Operación de craneo </span>
+
+            </div>
+            <div class="body">
+                <ul>
+                    <li>cabeza partida</li>
+                    <li>tumor cerebral</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                    <li>cabeza partida</li>
+                </ul>
+            </div>
+            <div class="bottom">
+                <button type="button" class="btn btn-default original_GOTHIC getOffer">Solicitar</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</section>
+<svg id="cloudsEight" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+
+<section id="sectionO">
+    <div class="container">
+        <hgroup>
+            <h2 class="original_GOTHIC shadows">Enfermedades del cerebro</h2>
+        </hgroup>
+        <div class="row divD ">
+            <div class="col-lg-6 divLine">
+                <p class="original_GOTHIC textRuleWhite">Los tratamientos para los traumas cerebrales mas
+                    comunes blac blacblac blacblac blacblac blacblac
+                    blacblac
+                    blacblac blacblac blacblac blacblac blac</p>
+            </div>
+            <div class="col-lg-6 divLine borderL">
+                <h4 class="original_GOTHIC textRuleWhite">+ Frecuentes || + Graves </h4>
+                <ul class="original_GOTHIC textRuleWhite">
+                    <li>Acromegalia</li>
+                    <li>Angiopatía amiloide cerebral</li>
+                    <li>Cerebritis</li>
+                    <li>Encefalopatía</li>
+                    <li>Hiperprolactinemia</li>
+                </ul>
+            </div>
+            <div class="col-lg-12 borderT">
+                <p class="original_GOTHIC textRuleWhite">Casos más frecuentes que se han diagnosticados y
+                    tratados en Santo Domingo son causados por blac blac blac</p>
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="clouds" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+<section id="sectionV" class="backgroundThree">
+    <div class="container">
+        <hgroup>
+            <h2 class="original_GOTHIC shadows">Enfermedades de la columna vertebral</h2>
+        </hgroup>
+        <div class="row divD ">
+            <div class="col-lg-6 divLine ">
+                <p class="textWhite original_GOTHIC textRule">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Pellentesque
+                    tincidunt
+                    leo sit amet augue lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros
+                    quis varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                    himenaeos.</p>
+            </div>
+            <div class="col-lg-6 divLine borderLBlue">
+                <h4 class="textWhite original_GOTHIC textRule">+ Frecuentes || + Graves </h4>
+                <ul class="textWhite original_GOTHIC textRule">
+                    <li>Acromegalia</li>
+                    <li>Angiopatía amiloide cerebral</li>
+                    <li>Cerebritis</li>
+                    <li>Encefalopatía</li>
+                    <li>Hiperprolactinemia</li>
+                </ul>
+            </div>
+            <div class="col-lg-12 borderTBlue">
+                <p class="textWhite original_GOTHIC textRule"> Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Pellentesque tincidunt leo sit amet augue
+                    lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                    aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+                    congue elit sit amet magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo
+                    eleifend. Etiam aliquam tortor nec diam vestibulum porttitor. Praesent volutpat sed ipsum sed
+                    posuere. Vivamus quis augue felis. Phasellus vitae malesuada metus.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="cloudsTwo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+<section id="sectionN">
+    <div class="container">
+        <hgroup>
+            <h2 class="original_GOTHIC shadows">Enfermedades del sistema nervioso</h2>
+        </hgroup>
+        <div class="row divD ">
+            <div class="col-lg-6 divLine">
+                <p class="original_GOTHIC textRuleWhite">Los tratamientos para los traumas cerebrales mas
+                    comunes blac blacblac blacblac blacblac blacblac
+                    blacblac
+                    blacblac blacblac blacblac blacblac blac</p>
+            </div>
+            <div class="col-lg-6 divLine borderL">
+                <h4 class="original_GOTHIC textRuleWhite">Casos más frecuentes que se han diagnosticado y
+                    tratado en santo domingo:</h4>
+                <ul class="original_GOTHIC textRuleWhite">
+                    <li>Acromegalia</li>
+                    <li>Angiopatía amiloide cerebral</li>
+                    <li>Cerebritis</li>
+                    <li>Encefalopatía</li>
+                    <li>Hiperprolactinemia</li>
+                </ul>
+            </div>
+            <div class="col-lg-12 borderT"><p class="original_GOTHIC textRuleWhite">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet augue
+                lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+                congue elit sit amet magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo
+                eleifend. Etiam aliquam tortor nec diam vestibulum porttitor. Praesent volutpat sed ipsum sed
+                posuere. Vivamus quis augue felis. Phasellus vitae malesuada metus.
+            </p>
+
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="cloudsThree" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+<section id="sectionH" class="backgroundThree">
+    <div class="container">
+        <hgroup>
+            <h2 class="original_GOTHIC shadows">Diagnostico y tratamiento de Hernia discal</h2>
+        </hgroup>
+        <div class="row divD ">
+            <div class="col-lg-6 divLine borderR textWhite textRule">Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Pellentesque
+                tincidunt
+                leo sit amet augue lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros
+                quis varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos.
+            </div>
+            <div class="col-lg-6 divLine textWhite textRule">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque
+                tincidunt
+                leo sit amet augue lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros
+                quis varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos.
+            </div>
+            <div class="col-lg-12 borderT textWhite textRule">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet augue
+                lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+                congue elit sit amet magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo
+                eleifend. Etiam aliquam tortor nec diam vestibulum porttitor. Praesent volutpat sed ipsum sed
+                posuere. Vivamus quis augue felis. Phasellus vitae malesuada metus.
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="cloudsFour" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+<section id="sectionC">
+    <div class="container">
+        <hgroup>
+            <h2 class="original_GOTHIC shadows">Diagnostico y tratamiento de Tumor cerebral</h2>
+        </hgroup>
+        <div class="row divD ">
+            <div class="col-lg-6 divLine">
+                <p>Los tratamientos para los traumas cerebrales mas comunes blac blacblac blacblac blacblac blacblac
+                    blacblac
+                    blacblac blacblac blacblac blacblac blac</p>
+            </div>
+            <div class="col-lg-6 divLine borderL">
+                <h4>Casos más frecuentes que se han diagnosticado y tratado en santo domingo:</h4>
+                <ul>
+                    <li>Acromegalia</li>
+                    <li>Angiopatía amiloide cerebral</li>
+                    <li>Cerebritis</li>
+                    <li>Encefalopatía</li>
+                    <li>Hiperprolactinemia</li>
+                </ul>
+            </div>
+            <div class="col-lg-12 borderT">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet augue
+                lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+                congue elit sit amet magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo
+                eleifend. Etiam aliquam tortor nec diam vestibulum porttitor. Praesent volutpat sed ipsum sed
+                posuere. Vivamus quis augue felis. Phasellus vitae malesuada metus.
+
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="cloudsFive" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+<section id="sectionE" class="backgroundThree">
+    <div class="container">
+        <hgroup>
+            <h2 class="original_GOTHIC shadows">Atención de emergencias</h2>
+        </hgroup>
+        <div class="row divD ">
+            <div class="col-lg-6 divLine  "><p class="textWhite original_GOTHIC textRule">Lorem ipsum dolor sit
+                amet, consectetur adipiscing elit. Pellentesque
+                tincidunt
+                leo sit amet augue lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros
+                quis varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                himenaeos.
+            </p>
+            </div>
+            <div class="col-lg-6 divLine borderLBlue">
+                <h4 class="textWhite original_GOTHIC textRule">+ Frecuentes || + Graves </h4>
+                <ul class="textWhite original_GOTHIC textRule">
+                    <li>Acromegalia</li>
+                    <li>Angiopatía amiloide cerebral</li>
+                    <li>Cerebritis</li>
+                    <li>Encefalopatía</li>
+                    <li>Hiperprolactinemia</li>
+                </ul>
+            </div>
+            <div class="col-lg-12 borderTBlue"><p class="textWhite original_GOTHIC textRule">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet augue
+                lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse
+                congue elit sit amet magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo
+                eleifend. Etiam aliquam tortor nec diam vestibulum porttitor. Praesent volutpat sed ipsum sed
+                posuere. Vivamus quis augue felis. Phasellus vitae malesuada metus.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<svg id="cloudsSix" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 100"
+     preserveAspectRatio="none">
+    <path d="M-5 100 Q 0 20 5 100 Z
+						 M0 100 Q 5 0 10 100
+						 M5 100 Q 10 30 15 100
+						 M10 100 Q 15 10 20 100
+						 M15 100 Q 20 30 25 100
+						 M20 100 Q 25 -10 30 100
+						 M25 100 Q 30 10 35 100
+						 M30 100 Q 35 30 40 100
+						 M35 100 Q 40 10 45 100
+						 M40 100 Q 45 50 50 100
+						 M45 100 Q 50 20 55 100
+						 M50 100 Q 55 40 60 100
+						 M55 100 Q 60 60 65 100
+						 M60 100 Q 65 50 70 100
+						 M65 100 Q 70 20 75 100
+						 M70 100 Q 75 45 80 100
+						 M75 100 Q 80 30 85 100
+						 M80 100 Q 85 20 90 100
+						 M85 100 Q 90 50 95 100
+						 M90 100 Q 95 25 100 100
+						 M95 100 Q 100 15 105 100 Z">
+    </path>
+</svg>
+<section id="thumbnailD">
+    <div class="container">
+        <div>
+            <h2 class="original_GOTHIC">Testimonios</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+
+                    <div class="caption">
+                        <h3>Susana Vargas</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                            augue lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis
+                            varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                            himenaeos. Suspendisse congue elit sit amet magna semper sempe</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+
+
+                    <div class="caption">
+                        <h3>Ruben Reyes</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                            augue lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis
+                            varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                            himenaeos. Suspendisse congue elit sit amet magna semper sempe</p>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>Paco Molina</h3>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                            augue lacinia, ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis
+                            varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                            himenaeos. Suspendisse congue elit sit amet magna semper sempe</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="sectionP" class="hidden-xs">
+    <div class="container">
+        <hgroup>
+            <h2 class="original_GOTHIC">Miselaneas</h2>
+        </hgroup>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="divMargin">
+                    <h3 class="colorTitle titleDiv original_GOTHIC">Lorem ipsum dolor sit amet</h3>
+
+                    <p class="original_GOTHIC">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                        augue
+                        lacinia,
+                        ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                        aptent
+                        taciti
+                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                        elit sit
+                        amet
+                        magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                        aliquam
+                        tortor
+                        nec
+                        diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                        felis.
+                        Phasellus
+                        vitae malesuada metus.
+                    </p>
+
+                    <p class="original_GOTHIC textRight">Jose Reyes</p>
+                </div>
+                <div class="divMargin">
+                    <h3 class="colorTitle titleDiv original_GOTHIC">Lorem ipsum dolor sit amet</h3>
+
+                    <p class="original_GOTHIC">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                        augue
+                        lacinia,
+                        ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                        aptent
+                        taciti
+                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                        elit sit
+                        amet
+                        magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                        aliquam
+                        tortor
+                        nec
+                        diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                        felis.
+                        Phasellus
+                        vitae malesuada metus.
+                    </p>
+
+                    <p class="original_GOTHIC textRight">Lilian Alfonso</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="divMargin">
+                    <h3 class="colorTitle titleDiv original_GOTHIC">Lorem ipsum dolor sit amet</h3>
+
+                    <p class="original_GOTHIC">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                        augue
+                        lacinia,
+                        ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                        aptent
+                        taciti
+                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                        elit sit
+                        amet
+                        magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                        aliquam
+                        tortor
+                        nec
+                        diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                        felis.
+                        Phasellus
+                        vitae malesuada metus.
+                    </p>
+
+                    <p class="original_GOTHIC textRight">Juan Muñoz</p>
+                </div>
+                <div class="divMargin">
+                    <h3 class="colorTitle titleDiv original_GOTHIC">Lorem ipsum dolor sit amet</h3>
+
+                    <p class="original_GOTHIC">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                        augue
+                        lacinia,
+                        ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                        aptent
+                        taciti
+                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                        elit sit
+                        amet
+                        magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                        aliquam
+                        tortor
+                        nec
+                        diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                        felis.
+                        Phasellus
+                        vitae malesuada metus.
+                    </p>
+
+                    <p class="original_GOTHIC textRight">Martha Albuja</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="divMargin">
+                    <h3 class="colorTitle titleDiv original_GOTHIC">Lorem ipsum dolor sit amet</h3>
+
+                    <p class="original_GOTHIC">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                        augue
+                        lacinia,
+                        ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                        aptent
+                        taciti
+                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                        elit sit
+                        amet
+                        magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                        aliquam
+                        tortor
+                        nec
+                        diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                        felis.
+                        Phasellus
+                        vitae malesuada metus.
+                    </p>
+
+                    <p class="original_GOTHIC textRight">Jose Reyes</p>
+                </div>
+                <div class="divMargin">
+                    <h3 class="colorTitle titleDiv original_GOTHIC">Lorem ipsum dolor sit amet</h3>
+
+                    <p class="original_GOTHIC">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                        augue
+                        lacinia,
+                        ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                        aptent
+                        taciti
+                        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                        elit sit
+                        amet
+                        magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                        aliquam
+                        tortor
+                        nec
+                        diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                        felis.
+                        Phasellus
+                        vitae malesuada metus.
+                    </p>
+
+                    <p class="original_GOTHIC textRight">Diana Fuentes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+    <div class="container">
+        <div class="row">
+            <hgroup><h2>Contacto</h2></hgroup>
+            <div class="hidden-xs">
+                <p class="contactoP">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                    augue
+                    lacinia,
+                    ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                    aptent
+                </p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+                <div class="divMargin">
+                    <div class="hidden-xs">
+                        <img src="assec/img/DOCTOR.png" alt="" class="imgDtr"/>
+                    </div>
+                    <div class="hidden-xs"><h3 class="colorTitle titleDiv original_GOTHIC">Dtr. Nestor Pulido</h3>
+
+                        <p class="original_GOTHIC" style="text-align: justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt leo sit amet
+                            augue
+                            lacinia,
+                            ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                            aptent
+                            taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                            elit sit
+                            amet
+                            magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                            aliquam
+                            tortor
+                            nec
+                            diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                            felis.
+                            Phasellus
+                            vitae malesuada metus.
+                            ut aliquet ligula pretium. Aliquam erat volutpat. Donec varius nec eros quis varius. Class
+                            aptent
+                            taciti
+                            sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse congue
+                            elit sit
+                            amet
+                            magna semper semper. Morbi lacinia lectus vel mi accumsan, ut mattis leo eleifend. Etiam
+                            aliquam
+                            tortor
+                            nec
+                            diam vestibulum porttitor. Praesent volutpat sed ipsum sed posuere. Vivamus quis augue
+                            felis.
+                            Phasellus
+                            vitae malesuada metus.
+                        </p>
+                    </div>
+                    <ul class="social">
+                        <li class="facebook"><a href="">
+                            <div><i class="fa fa-facebook fa-2x" style="color: #0b614a"></i></div>
+                        </a></li>
+                        <li class="twitter"><a href="">
+                            <div><i class="fa fa-twitter fa-2x" style="color: #0b614a"></i></div>
+                        </a></li>
+                        <li class="youtube"><a href=>
+                            <div><i class="fa fa-youtube fa-2x" style="color: #0b614a"></i></div>
+                        </a></li>
+                    </ul>
+
+
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-xs-12">
+
+                <div>
+                    <form class="contactForm">
+                        <div class="row">
+                            <div class="form-group col-lg-7">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="form-group col-lg-5">
+                                <label for="correo">Teléfono Movil</label>
+                                <input type="email" class="form-control" id="cel" placeholder="Teléfono">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-lg-7">
+                                <label for="correo">Correo</label>
+                                <input type="email" class="form-control" id="correo" placeholder="Correo">
+                            </div>
+                            <div class="form-group col-lg-5">
+                                <label for="correo">Operadora</label>
+                                <select class="form-control">
+                                    <option>CNT</option>
+                                    <option>MOVISTAR</option>
+                                    <option>CLARO</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-lg-12">
+                                <label for="asunto">Asunto: </label>
+                                <textarea cols="5" rows="5" type="textarea" class="form-control" id="asunto"
+                                          placeholder="Escribir..">
+                                </textarea>
+                            </div>
+                            <div class="send">
+                                <button type="submit" class="btn btn-warning btnSend"><i class="fa fa-send"></i> Enviar
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<svg id="bigTriangleColor" class="backgroundTwo" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%"
+     height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+    <path d="M0 0 L50 100 L100 0 Z"></path>
+</svg>
+<footer id="footer" class="backgroundTwo">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="borderWhite">
+                    <h2>Consultas</h2>
+                    <ul>
+                        <li><a href="" class="linkConsultB">Básica</a></li>
+                        <li><a href="" class="linkConsultB">Económica</a></li>
+                        <li><a href="" class="linkConsultB">Super</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="borderWhite">
+                    <h2>Cirugías</h2>
+                    <ul>
+                        <li><a href="" class="linkSurgeryB">Lorem Ipsu</a></li>
+                        <li><a href="" class="linkSurgeryB">Lorem Ipsu</a></li>
+                        <li><a href="" class="linkSurgeryB">Lorem Ipsu</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="borderWhite">
+                    <h2>Información</h2>
+                    <table>
+                        <tr>
+                            <td style="width: 30px;text-align: center;"><i class="fa fa-phone textWhite"></i></td>
+                            <td class="textWhite">998755441</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30px;text-align: center;"><i class="fa fa-home textWhite"></i></td>
+                            <td class="textWhite">Esquina derecha de la calazacon</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30px;text-align: center;"><i class="fa fa-envelope textWhite"></i></td>
+                            <td class="textWhite"> nestorpulido76@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30px;text-align: center;"><i class="fa fa-facebook textWhite"></i></td>
+                            <td class="textWhite"> facebook</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 30px;text-align: center;"><i class="fa fa-twitter textWhite"></i></td>
+                            <td class="textWhite"> twitter</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row centerfooter">
+            <span class="copyright">NeuroMec<i class="fa fa-copyright"></i>Copyright Reserved 2015</span>
+        </div>
+    </div>
+</footer>
+
+<!-- Include js plugin -->
+<script src="assec/js/jquery-2.1.4.min.js"></script>
+<script src="assec/js/move.js"></script>
+<script src="assec/css/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
